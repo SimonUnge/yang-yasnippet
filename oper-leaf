@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: oper-leaf
+# key: oleaf
+# --
+leaf $1 {
+  config false;
+  type ${2:string};
+}
+$0

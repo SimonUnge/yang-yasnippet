@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: oper-list
+# key: olist
+# --
+list $1 {
+  config false;
+  key ${2:id};
+  leaf $2 {
+    type ${3:uint16};
+  }
+  $0
+}

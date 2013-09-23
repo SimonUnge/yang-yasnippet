@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oper-container
+# key: ocon
+# --
+container $1 {
+  config false;
+  $0
+}
