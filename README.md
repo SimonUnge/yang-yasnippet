@@ -1,4 +1,4 @@
- #Yasnippets for yang-mode
+#Yasnippets for yang-mode
 
 [Yasnippet](https://github.com/capitaomorte/yasnippet)
 
