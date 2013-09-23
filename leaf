@@ -3,6 +3,6 @@
 # key: leaf
 # --
 leaf $1 {
-  type $2;
+  type ${2:string};
 }
 $0
