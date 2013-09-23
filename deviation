@@ -3,7 +3,7 @@
 # key: deviation
 # --
 deviation $1 {
-  deviate ${2} {
+  deviate $2 {
     $0
   }
 }
