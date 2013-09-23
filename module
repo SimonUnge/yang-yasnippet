@@ -3,7 +3,7 @@
 # key: mod
 # --
 module $1 {
-  namespace "${2:http://tail-f.com/$1}";
-  prefix "${3:e}";
+  namespace "${2:http://tail-f.com/example/$1}";
+  prefix "${3:$1}";
   $0
 }
