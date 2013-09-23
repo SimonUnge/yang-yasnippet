@@ -3,7 +3,9 @@
 # key: typedef
 # --
 typedef $1 {
-  type $2;
-  description "$3";
+  type $2 {
+    $3
+  }
+  description "$4";
 }
 $0
