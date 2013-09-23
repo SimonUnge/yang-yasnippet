@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: container
+# key: container
+# --
+container $1 {
+  $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: choice
+# key: choice
+# --
+choice $1 {
+  $0
+}

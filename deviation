@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: deviation
+# key: deviation
+# --
+deviation $1 {
+  deviate ${2} {
+    $0
+  }
+}

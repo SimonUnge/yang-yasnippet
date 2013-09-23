@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: module
+# key: module
+# --
+module $1 {
+  namespace "${2:http://tail-f.com/example}";
+  prefix "${3:e}";
+  $0
+}

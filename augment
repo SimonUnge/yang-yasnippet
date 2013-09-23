@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: augment
+# key: augment
+# --
+augment $1 {
+  $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: grouping
+# key: grouping
+# --
+grouping $1 {
+  $0
+}

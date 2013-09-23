@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: notification
+# key: notification
+# --
+notification $1 {
+  $0
+}

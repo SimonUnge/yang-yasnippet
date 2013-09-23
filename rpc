@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: rpc
+# key: rpc
+# --
+rpc $1 {
+  input {
+    $0
+  }
+  output {
+
+  }
+}

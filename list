@@ -1,0 +1,11 @@
+# Author: Simon Unge
+# name: list
+# key: list
+# --
+list $1 {
+  key ${2:id};
+  leaf $2 {
+    type ${3:uint16;
+  }
+  $0
+}

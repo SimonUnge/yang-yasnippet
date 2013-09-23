@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: submodule
+# key: sub
+# --
+submodule $1 {
+  belongs-to "${2}";
+  $0
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: leaf-list
+# key: leafl
+# --
+leaf-list $1 {
+  type ${2:string};
+}
+$0
