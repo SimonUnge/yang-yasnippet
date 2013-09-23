@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: module
-# key: module
+# key: mod
 # --
 module $1 {
   namespace "${2:http://tail-f.com/example}";

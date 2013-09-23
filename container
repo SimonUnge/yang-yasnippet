@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: container
-# key: container
+# key: con
 # --
 container $1 {
   $0
