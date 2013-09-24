@@ -2,7 +2,9 @@
 # name: import
 # key: import
 # --
-import ${1:tailf-common} {
-  prefix ${2:tailf};
+import ${1:module-name$(yas-choose-value '("tailf-common"
+                                           "ietf-inet-types"
+                                           "tailf-webui"))} {
+  prefix $2;
 }
 $0
