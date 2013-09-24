@@ -2,9 +2,13 @@
 # name: import
 # key: imp
 # --
-import ${1:module-name$(yas-choose-value '("tailf-common"
+import ${1:module-name$(yas-choose-value '("confd_dyncfg"
+                                           "iana-if-type"
                                            "ietf-inet-types"
-                                           "tailf-webui"))} {
+                                           "ietf-yang-types"
+                                           "tailf-common"
+                                           "tailf-webui"
+                                           "tailf-xsd-types"))} {
   prefix $2;
 }
 $0
