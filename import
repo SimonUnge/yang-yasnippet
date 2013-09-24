@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: import
-# key: import
+# key: imp
 # --
 import ${1:module-name$(yas-choose-value '("tailf-common"
                                            "ietf-inet-types"
