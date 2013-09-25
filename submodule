@@ -4,6 +4,6 @@
 # key: sub
 # --
 submodule $1 {
-  belongs-to "${2}";
+  belongs-to "$2";
   $0
 }
