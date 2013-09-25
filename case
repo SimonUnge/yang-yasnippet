@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: case
+# contributor: Simon Unge
 # key: case
 # --
 case $1 {

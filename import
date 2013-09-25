@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: import
+# contributor: Simon Unge
 # key: imp
 # --
 import ${1:module-name$(yas-choose-value '("confd_dyncfg"

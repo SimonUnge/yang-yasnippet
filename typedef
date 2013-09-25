@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: typedef
+# contributor: Simon Unge
 # key: typedef
 # --
 typedef $1 {

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: revision
+# contributor: Simon Unge
 # key: rev
 # --
 revision "${1:`(format-time-string "%Y-%m-%d")`}" {

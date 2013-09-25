@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: deviation
+# contributor: Simon Unge
 # key: deviation
 # --
 deviation $1 {

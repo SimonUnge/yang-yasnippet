@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: submodule
+# contributor: Simon Unge
 # key: sub
 # --
 submodule $1 {

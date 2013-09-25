@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: grouping
+# contributor: Simon Unge
 # key: grouping
 # --
 grouping $1 {

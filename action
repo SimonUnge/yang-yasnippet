@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: action
+# contributor: Simon Unge
 # key: action
 # --
 action $1 {

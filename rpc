@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: rpc
+# contributor: Simon Unge
 # key: rpc
 # --
 rpc $1 {

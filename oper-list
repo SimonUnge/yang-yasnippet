@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: oper-list
+# contributor: Simon Unge
 # key: olist
 # --
 list $1 {

@@ -1,5 +1,6 @@
-# Author: Simon Unge
+# -*- mode: snippet -*-
 # name: list
+# contributor: Simon Unge
 # key: list
 # --
 list $1 {

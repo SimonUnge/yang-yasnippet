@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: module
+# contributor: Simon Unge
 # key: mod
 # --
 module $1 {

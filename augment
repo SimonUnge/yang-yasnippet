@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: augment
+# contributor: Simon Unge
 # key: augment
 # --
 augment $1 {

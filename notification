@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: notification
+# contributor: Simon Unge
 # key: notification
 # --
 notification $1 {

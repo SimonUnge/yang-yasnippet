@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: oper-leaf
+# contributor: Simon Unge
 # key: oleaf
 # --
 leaf $1 {

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: leaf-list
+# contributor: Simon Unge
 # key: leafl
 # --
 leaf-list $1 {

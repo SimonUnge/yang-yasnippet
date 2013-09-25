@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: choice
+# contributor: Simon Unge
 # key: choice
 # --
 choice $1 {
