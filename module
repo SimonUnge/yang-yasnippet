@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
 # name: module
 # contributor: Simon Unge
-# key: mod
+# key: module
 # --
 module $1 {
-  namespace "${2:http://tail-f.com/example/$1}";
+  namespace "${2:http://example.com/ns/$1}";
   prefix "${3:$1}";
   $0
 }

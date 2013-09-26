@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: submodule
 # contributor: Simon Unge
-# key: sub
+# key: submodule
 # --
 submodule $1 {
   belongs-to "$2";

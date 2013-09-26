@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: oper-container
 # contributor: Simon Unge
-# key: ocon
+# key: ocontainer
 # --
 container $1 {
   config false;

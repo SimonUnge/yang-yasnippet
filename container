@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: container
 # contributor: Simon Unge
-# key: con
+# key: container
 # --
 container $1 {
   $0
