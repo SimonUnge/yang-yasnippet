@@ -4,10 +4,9 @@
 # key: module
 # --
 module ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
-  nametest "${2:`(progn
+  namespace "${2:`(progn
                    (require 'json)
                    (cdr (assq 'namespace (json-read-file "~/.yangsnippetrc"))))`$1}";
-  namespace "${2:http://example.com/ns/$1}";
   prefix "${3:$1}";
   $0
 }
