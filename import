@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: import
 # contributor: Simon Unge
-# key: imp
+# key: import
 # --
 import ${1:module-name$(yas-choose-value '("confd_dyncfg"
                                            "iana-if-type"
