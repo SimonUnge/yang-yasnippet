@@ -3,7 +3,7 @@
 # contributor: Simon Unge
 # key: module
 # --
-module $1 {
+module ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
   namespace "${2:http://example.com/ns/$1}";
   prefix "${3:$1}";
   $0
