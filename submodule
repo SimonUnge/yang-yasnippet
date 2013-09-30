@@ -3,7 +3,7 @@
 # contributor: Simon Unge
 # key: submodule
 # --
-submodule $1 {
+submodule ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
   belongs-to "$2";
   $0
 }
