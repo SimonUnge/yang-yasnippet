@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: leaf-list
 # contributor: Simon Unge
-# key: leaf-list
+# key: leaflist
 # --
 leaf-list $1 {
   type ${2:string};
