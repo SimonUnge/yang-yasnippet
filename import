@@ -3,13 +3,9 @@
 # contributor: Simon Unge
 # key: import
 # --
-import ${1:module-name$(yas-choose-value '("confd_dyncfg"
-                                           "iana-if-type"
-                                           "ietf-inet-types"
-                                           "ietf-yang-types"
-                                           "tailf-common"
-                                           "tailf-webui"
-                                           "tailf-xsd-types"))} {
+import ${1:module-name$(yas-choose-value (progn
+                                           (require 'json)
+                                           (append (cdr (assq 'import-modules (json-read-file "~/.yangsnippetrc"))) nil)))} {
   prefix $2;
 }
 $0
