@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: tailf
+# contributor: Simon Unge
+# key: tailf
+# --
+tailf:${1:extension$(yas-choose-value (progn
+                                           (require 'json)
+                                           (append (cdr (assq 'extensions (json-read-file "~/.yangsnippetrc"))) nil)))};
+$0
