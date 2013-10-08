@@ -5,8 +5,9 @@
 # --
 module ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
   namespace "${2:`(progn
-                   (require 'json)
-                   (cdr (assq 'namespace (json-read-file "~/.yangsnippetrc"))))`$1}";
+                      (require 'json)
+                      (if (file-exists-p "~/.yangsnippetrc")
+                          (cdr (assq 'namespace (json-read-file "~/.yangsnippetrc")))))`$1}";
   prefix "${3:$1}";
   $0
 }
