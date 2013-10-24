@@ -4,10 +4,10 @@
 # key: import
 # --
 import ${1:module-name$(yas-choose-value
-                           (progn
-                               (require 'json)
-                               (if (file-exists-p "~/.yangsnippetrc")
-                                   (append (cdr (assq 'import-modules (json-read-file "~/.yangsnippetrc"))) nil))))} {
-  prefix $2;
+                         (progn
+                           (require 'json)
+                           (if (file-exists-p "~/.yangsnippetrc")
+                               (append (cdr (assq 'import-modules (json-read-file "~/.yangsnippetrc"))) nil))))} {
+prefix $2;
 }
 $0
