@@ -6,8 +6,12 @@
 import ${1:module-name$(yas-choose-value
                          (progn
                            (require 'json)
+                           (setq imports (mapcar 'file-name-sans-extension (directory-files "." nil "^[^#]+.yang$")))
                            (if (file-exists-p "~/.yangsnippetrc")
-                               (append (cdr (assq 'import-modules (json-read-file "~/.yangsnippetrc"))) nil))))} {
+                               (append (cdr (assq 'import-modules (json-read-file "~/.yangsnippetrc"))) imports)
+                               imports
+                           )
+))} {
 prefix $2;
 }
 $0
