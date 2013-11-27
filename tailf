@@ -7,5 +7,4 @@ tailf:${1:extension$(yas-choose-value
                       (progn
                         (require 'json)
                         (if (file-exists-p "~/.yangsnippetrc")
-                            (append (cdr (assq 'extensions (json-read-file "~/.yangsnippetrc"))) nil))))};
-$0
+                            (append (cdr (assq 'extensions (json-read-file "~/.yangsnippetrc"))) nil))))}$0
