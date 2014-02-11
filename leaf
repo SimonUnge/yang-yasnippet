@@ -6,5 +6,4 @@
 leaf $1 {
   type ${2:string};
   ${3:description "$4";}
-}
-$0
+}$0

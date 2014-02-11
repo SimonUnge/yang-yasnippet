@@ -13,5 +13,4 @@ import ${1:module-name$(yas-choose-value
                            )
 ))} {
 prefix $2;
-}
-$0
+}$0

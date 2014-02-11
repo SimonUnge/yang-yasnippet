@@ -4,6 +4,10 @@
 # key: submodule
 # --
 submodule ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
-  belongs-to "$2";
+  belongs-to ${2:module-name$(yas-choose-value (mapcar
+  'file-name-sans-extension (directory-files "." nil
+  "^[^#]+.yang$")))} {
+      prefix $3;
+  }
   $0
 }
