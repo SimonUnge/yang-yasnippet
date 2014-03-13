@@ -3,7 +3,7 @@
 # contributor: Simon Unge
 # key: module
 # --
-module ${1:`(replace-regexp-in-string "\.yang" "" (buffer-name))`} {
+module ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name))))`} {
   namespace "${2:`(progn
                     (require 'json)
                     (if (file-exists-p "~/.yangsnippetrc")
